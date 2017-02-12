@@ -85,4 +85,4 @@ If email is failing to be sent out, please try the following things:
   6. Click 'OK'
   7. Close Avast
 
-7) If all fails, Google is your best bet. Go to the library `application/library/Ah_Email.php` and uncomment link #100 which should hopefully give you an error message you can research on Google.
+7) If all fails, Google is your best bet. Go to the library `application/library/Ah_Email.php` and uncomment line #100 which should hopefully give you an error message you can research on Google.

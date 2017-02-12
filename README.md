@@ -65,30 +65,30 @@ Those are the specific email. Each type of email you send must have a template, 
 
 If email is failing to be sent out, please try the following things:
 
-1) Make sure that the to email variable is set. You can hardcode an email instead of the variable to see if that is the case, another option is to output the email to variable to see it contains a valid email.
+    1) Make sure that the to email variable is set. You can hardcode an email instead of the variable to see if that is the case, another option is to output the email to variable to see it contains a valid email.
 
-2) If your provider is setup to require 2 step login. Create a new application password and use that. More info for how it is done on Gmail by visiting: https://support.google.com/accounts/answer/185839
+    2) If your provider is setup to require 2 step login. Create a new application password and use that. More info for how it is done on Gmail by visiting: https://support.google.com/accounts/answer/185839
 
-3) Gmail - Allow less secure apps: If you don't use 2-Step Verification, you might need to allow less secure apps to access your account by visiting: https://www.google.com/settings/security/lesssecureapps
+    3) Gmail - Allow less secure apps: If you don't use 2-Step Verification, you might need to allow less secure apps to access your account by visiting: https://www.google.com/settings/security/lesssecureapps
 
-4) Gmail - If the tips above didn't help, visit: https://www.google.com/accounts/DisplayUnlockCaptcha and follow the steps on the page.
+    4) Gmail - If the tips above didn't help, visit: https://www.google.com/accounts/DisplayUnlockCaptcha and follow the steps on the page.
 
-5) Try changing your password at your provider and using the updated on.
+    5) Try changing your password at your provider and using the updated on.
 
-6) Make sure that your antivirus or other security programs are not blocking that port. Consult google for "how to open port {PORT YOU ARE USING} on {PROGRAM NAME}". For me it happened on Avast which I had to:
+    6) Make sure that your antivirus or other security programs are not blocking that port. Consult google for "how to open port {PORT YOU ARE USING} on {PROGRAM NAME}". For me it happened on Avast which I had to:
 
-    1. Open Avast
+        1. Open Avast
     
-    2. Click on 'Settings' (upper right corner of page)
+        2. Click on 'Settings' (upper right corner of page)
     
-    3. Click on 'Troubleshooting'
+        3. Click on 'Troubleshooting'
     
-    4. Click on 'Redirect Settings'
+        4. Click on 'Redirect Settings'
     
-    5. Remove 465 from the list.
+        5. Remove 465 from the list.
     
-    6. Click 'OK'
+        6. Click 'OK'
     
-    7. Close Avast
+        7. Close Avast
 
-7) If all fails, Google is your best bet. Go to the library `application/library/Ah_Email.php` and uncomment link #100 which should hopefully give you an error message you can research on Google.
+    7) If all fails, Google is your best bet. Go to the library `application/library/Ah_Email.php` and uncomment link #100 which should hopefully give you an error message you can research on Google.
